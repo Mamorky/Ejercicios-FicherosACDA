@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="titAgenda">33sp</dimen>
+    <dimen name="nombresAgenda">16sp</dimen>
+</resources>
