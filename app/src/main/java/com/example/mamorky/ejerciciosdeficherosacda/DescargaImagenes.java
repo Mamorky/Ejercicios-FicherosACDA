@@ -133,19 +133,27 @@ public class DescargaImagenes extends AppCompatActivity implements View.OnClickL
     }
 
     public void avanzar(){
+        try{
         String nextImage = images.get(flag++ % images.size());
         if(nextImage.isEmpty())
             imgIMagen.setImageResource(R.drawable.error);
         else
             picasso(nextImage);
+        }catch (Exception e){
+            Toast.makeText(this,"No se pudo avanzar la posición. "+e.getMessage(),Toast.LENGTH_LONG).show();
+        }
     }
 
     public void retroceder (){
+        try{
         String nextImage = images.get(flag++ % images.size());
         if(nextImage.isEmpty())
             imgIMagen.setImageResource(R.drawable.error);
         else
             picasso(nextImage);
+        }catch (Exception e){
+            Toast.makeText(this,"No se pudo retroceder la posición. "+e.getMessage(),Toast.LENGTH_LONG).show();
+        }
     }
 
     @Override
