@@ -8,15 +8,15 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
-    Button btnAgenda,btnEj2,btnEj3,btnEj4,btnEj5,btnEj6,btnEj7;
+    Button btnEj1,btnEj2,btnEj3,btnEj4,btnEj5,btnEj6,btnEj7;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btnAgenda = (Button)findViewById(R.id.btnEj1);
-        btnAgenda.setOnClickListener(this);
+        btnEj1 = (Button)findViewById(R.id.btnEj1);
+        btnEj1.setOnClickListener(this);
 
         btnEj2 = (Button)findViewById(R.id.btnEj2);
         btnEj2.setOnClickListener(this);
@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-        if(v==btnAgenda){
+        if(v== btnEj1){
             Intent intent = new Intent(this,Agenda.class);
             startActivity(intent);
         }
@@ -48,19 +48,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(intent);
         }
         if(v==btnEj3){
-            Intent intent = new Intent(this,Conexiones.class);
+            Intent intent = new Intent(this,DiasLectivos.class);
             startActivity(intent);
         }
         if(v==btnEj4){
-            Intent intent = new Intent(this,DescargaImagenes.class);
+            Intent intent = new Intent(this,Conexiones.class);
             startActivity(intent);
         }
         if(v==btnEj5){
-            Intent intent = new Intent(this,ConversorPrincipal.class);
+            Intent intent = new Intent(this,DescargaImagenes.class);
             startActivity(intent);
         }
         if(v==btnEj6){
-            Intent intent = new Intent(this,DiasLectivos.class);
+            Intent intent = new Intent(this,ConversorPrincipal.class);
             startActivity(intent);
         }
 

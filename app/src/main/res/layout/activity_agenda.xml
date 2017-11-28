@@ -56,7 +56,7 @@
         android:id="@+id/btnAdd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Add & Show" />
+        android:text="Add AND Show" />
 
     <EditText
         android:id="@+id/edtContactos"

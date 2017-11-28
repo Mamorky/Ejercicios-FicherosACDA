@@ -12,47 +12,47 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Ejercicio 1" />
+        android:text="Ejercicio1" />
 
     <Button
         android:id="@+id/btnEj2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Button" />
+        android:text="Ejercicio2" />
 
     <Button
         android:id="@+id/btnEj3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Button" />
+        android:text="Ejercicio3" />
 
     <Button
         android:id="@+id/btnEj4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Button" />
+        android:text="Ejercicio4" />
 
     <Button
         android:id="@+id/btnEj5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Button" />
+        android:text="Ejercicio5" />
 
     <Button
         android:id="@+id/btnEj6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Button" />
+        android:text="Ejercicio6" />
 
     <Button
         android:id="@+id/btnEj7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Button" />
+        android:text="Ejercicio7" />
 </LinearLayout>
